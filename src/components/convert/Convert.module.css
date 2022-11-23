@@ -1,0 +1,21 @@
+.container {
+  padding-top: 10%;
+  width: min(600px, 90%);
+  margin-inline: auto;
+}
+.container h2 {
+  font-size: 2rem;
+}
+
+.inputContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (max-width: 600px) {
+  .inputContainer {
+    flex-direction: column;
+    gap: 2rem;
+  }
+}

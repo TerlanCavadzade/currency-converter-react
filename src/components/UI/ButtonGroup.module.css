@@ -1,0 +1,44 @@
+.buttonGroupContainer {
+  margin-top: 2rem;
+}
+.buttonGroupContainer p {
+  color: #9f9f9f;
+  font-size: 1rem;
+}
+
+.buttonGroup {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.buttonGroup input {
+  color: #c6c6c6;
+  border: 1px solid currentColor;
+  padding: 0.25em 0.75em;
+  appearance: none;
+  cursor: pointer;
+  flex: 1;
+}
+.buttonGroup input::before {
+  content: attr(data-currency);
+  font-weight: 500;
+  font-size: 1rem;
+  letter-spacing: 0.06em;
+}
+
+.buttonGroup input:first-of-type {
+  border-top-left-radius: 0.25em;
+  border-bottom-left-radius: 0.25em;
+}
+
+.buttonGroup input:last-of-type {
+  border-top-right-radius: 0.25em;
+  border-bottom-right-radius: 0.25em;
+}
+
+.buttonGroup input:checked {
+  background-color: #833ae0;
+  color: white;
+  border-color: #833ae0;
+}

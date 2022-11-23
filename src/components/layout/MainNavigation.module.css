@@ -1,0 +1,39 @@
+.nav {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  min-height: 50px;
+  justify-content: space-around;
+  background-color: #f5f5f6;
+}
+
+.links {
+  display: flex;
+  gap: 16px;
+}
+.links a {
+  color: #959ba4;
+  text-decoration: none;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  font-size: 1rem;
+}
+
+.activeLink {
+  color: black !important;
+}
+
+.login button {
+  font-weight: 500;
+  font-size: 1rem;
+  letter-spacing: 0.06em;
+  padding: 0.25em 0.75em;
+  background-color: white;
+  border: none;
+  border-radius: 0.25em;
+  cursor: pointer;
+}
+
+.logo img {
+  width: 100%;
+}
